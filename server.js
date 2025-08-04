@@ -1124,7 +1124,7 @@ const certPath = './certs/device-cert.pem'; // Replace with the actual path to y
 const keyPath = './certs/device-private-key.pem'; // Replace with the actual path to your device private key
 
 const client = mqtt.connect('mqtts://a4b2hmymuctm4-ats.iot.eu-north-1.amazonaws.com', {
- clientId: 'mqtt-client-laptop-OOOO', // Unique client ID
+ clientId: 'mqtt-client-laptop-O', // Unique client ID
  port: 8883, // Secure MQTT port
  ca: fs.readFileSync(caPath), // Root certificate
  cert: fs.readFileSync(certPath), // Device certificate
